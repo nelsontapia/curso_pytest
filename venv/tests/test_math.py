@@ -49,7 +49,8 @@ def test_multiplication(a,b,product):
 list_arg = [
     (1,1,2),
     (4,5,9),
-    (2,2,4)
+    (2,2,4),
+    (3,5,8)
 ]
 
 @pytest.mark.parametrize('ent_1,ent_2,prod',list_arg)
